@@ -4,7 +4,14 @@ import snowflake.connector
 
 config = tomllib.loads(Path("config.toml").read_text())["snowflake"]
 
-conn = snowflake.connector.connect(**config)
+conn = snowflake.connector.connect(
+    user=config["user"],
+    password=config["password"],
+    account=config["account"],
+    role=config["role"],
+    database=config["database"],
+    warehouse=config["warehouse"]
+)
 
 cur = conn.cursor()
 try:
