@@ -37,7 +37,7 @@ poetry install --no-root
 ```
 [snowflake]
 account = "ETLXDPW-SB05598"
-user = "" # e.g. TTESTERSON
+user = "" # e.g. TTESTERSON@DOMAIN.COM
 password = ""
 role = "TRAINING_{USER}_ADMIN" # e.g. TRAINING_TTESTERSON_ADMIN
 warehouse = "CTEH_DATA_WH"
