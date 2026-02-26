@@ -6,10 +6,10 @@
 3.  Install Poetry
 
 ```
-# Install Poetry
+# Install Poetry. Windows users must eadd %APPDATA%\pypoetry\venv\Scripts\poetry to their path.
 	# Linux
 	curl -sSL https://install.python-poetry.org | python3 -
-	# Windows Powershell. Windows users must eadd %APPDATA%\pypoetry\venv\Scripts\poetry to their paths.
+	# Windows Powershell. Windows users must eadd %APPDATA%\pypoetry\venv\Scripts\poetry to their path.
 	(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
 	
 # Clone github repo
