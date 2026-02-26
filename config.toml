@@ -1,0 +1,8 @@
+[snowflake]
+account = "ETLXDPW-SB05598"
+user = "{$user}"
+password = "{$snowflake_password}"
+role = "TRAINING_{$user}_ADMIN"
+database = "TRAINING_{$user}_DB"
+warehouse = "CTEH_DATA_WH"
+schema = "RAW"
